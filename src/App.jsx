@@ -6,10 +6,13 @@ import About from './pages/About'
 import Profile from './pages/Profile'
 import Signin from './pages/signin'
 import Signup from './pages/Signup'
+import Header from './components/Header'
 
 function App() {
   return (
+    
   <BrowserRouter>
+    <Header/>
     <Routes>
       <Route path="/about" element={ <About /> } /> 
       <Route path="/profile" element={ <Profile /> } /> 
